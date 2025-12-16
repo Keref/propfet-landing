@@ -1,0 +1,32 @@
+.demo-page {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #FF6B35 0%, #87CEEB 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem;
+}
+
+.demo-container {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
+}
+
+@media (max-width: 768px) {
+  .demo-page {
+    padding: 1rem;
+  }
+}
+
